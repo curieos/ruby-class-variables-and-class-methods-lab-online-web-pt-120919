@@ -11,8 +11,9 @@ class Song
     @genre = genre
     
     @@count += 1
-    if artists.has?
-    @@artists << artist
+    if artists.include?(artist)
+      @@artists << artist
+    end
     @@genres << genre
   end
   
