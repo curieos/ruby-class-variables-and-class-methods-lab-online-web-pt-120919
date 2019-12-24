@@ -38,4 +38,8 @@ class Song
     end
     genres
   end
+  
+  def genre_count
+    
+  end
 end
