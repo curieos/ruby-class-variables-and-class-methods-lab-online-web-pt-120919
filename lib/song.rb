@@ -11,6 +11,7 @@ class Song
     @genre = genre
     
     @@count += 1
+    if artists.has?
     @@artists << artist
     @@genres << genre
   end
